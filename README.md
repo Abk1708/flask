@@ -1,23 +1,17 @@
----
-title: Flask
-description: A popular minimal server framework for Python
-tags:
-  - python
-  - flask
----
+# Module-6 Checkpoint 1 by Alfath Bagus Kurnia
 
-# Python Flask Example
+## In order to run the API, create an .env file inside the root directory and create the required environment below
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
+```bash
+FLASK_DEBUG=True
+FLASK_EMV=developments
+```
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+## Required step to consume the API
 
-## ✨ Features
+1. Install poetry to execute the project `pip install poetry`
+2. Install the environment using Poetry `poetry install`
+3. Set up the required environment `poetry shell`
+4. From this point, you can execute the API by using `poetry run flask --app ./app/ run`
 
-- Python
-- Flask
-
-## 💁‍♀️ How to use
-
-- Install Python requirements `pip install -r requirements.txt`
-- Start the server for development `python3 main.py`
+[URL to the API Documentation created in Postman](https://documenter.getpostman.com/view/30116466/2sA2rAxMSt)
